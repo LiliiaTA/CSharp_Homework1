@@ -11,4 +11,4 @@ if(number1 < number2){
 }
 else {
     Console.WriteLine($"{number1} is greater than {number2}");
-} 
+}
