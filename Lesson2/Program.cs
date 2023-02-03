@@ -1,8 +1,7 @@
 ﻿// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 
 Console.Clear();
-//int number = new Random().Next(100, 1000);
-int number = 918;
+int number = new Random().Next(100, 1000);
 int digit = (number % 100) / 10;
 Console.WriteLine($"{number} -> {digit}");
 
